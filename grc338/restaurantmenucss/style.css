@@ -7,13 +7,46 @@ html
 h1{
     color: #003a6a;
     font-size: 3em; 
-    margin-left: 50px; 
+    margin: 60px 0px 0px 60px; 
+    font-family: sans-serif;
+
 }
 
 h2{
-    color: #2f4f4f;
+    color: #003a6a;
+    margin-left: 60px; 
+    margin-bottom: -15px; 
+    font-family: sans-serif; 
+    text-transform: uppercase;
+
 }
 
 h3{
     color: #2f4f4f;
+    margin-left: 60px;
+    margin-top: 35px;
+    margin-bottom: -5px;
+    font-family: sans-serif; 
+
+}
+
+h4{
+    color: #2f4f4f;
+    margin-bottom: -.5em
+}
+
+
+li{
+    margin-left: 50px; 
+    margin-right: 60px;
+    font-family: sans-serif;
+}
+
+p{
+    margin-bottom: -5px;
+    font-size: .95em;
+}
+
+ul{
+    list-style-type: none;
 }
