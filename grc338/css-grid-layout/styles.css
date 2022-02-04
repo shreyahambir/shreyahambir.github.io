@@ -1,0 +1,130 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+body {
+	background-color: rgb(220 220 220);
+}
+
+div.container {
+	background-color:#FFFFFF; 
+}
+
+header {
+	background-color: #ff8c04;
+	padding: 2.5em 1.7em 1.7em;
+}
+main {
+	padding: 0em;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+	margin-bottom: .5em;
+}
+
+h2 {
+	color: rgb(245 204 157);
+	font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+	margin-bottom: 0em; 
+}
+
+
+h3 {
+	font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+	color: #ff8c04;
+	margin: 0em 1.7em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+li {
+	margin:1em; 
+}
+
+figcaption {
+	font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+	color: #000000;
+	padding: 1em 1em 2em 1em;
+}
+
+li {
+	font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+ul, ol {
+	margin: 1em 1em 3em 1em;
+}
+
+footer {
+	background-color: #ff8c04; 
+	color: rgb(245 204 157);
+	padding: 1em 1.7em;
+}
+
+p {
+	font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+@media only screen and (min-width: 60em) {  
+
+
+div.container {  
+    max-width: 70em;  
+    margin: auto;  
+}  
+
+
+header {  
+    padding-top: 5em;  
+}  
+
+
+figure {  
+    display: grid;  
+    grid-template-columns: 4fr 1fr;  
+    column-gap: 1em;  
+}  
+
+
+main {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr;  
+    column-gap: 1em;  
+    padding: 3em;  
+}  
+
+
+figcaption {  
+    padding-top: 2em;  
+}  
+
+
+h3 {  
+    border-top: 2px solid;  
+    padding-top: 1em;  
+}
+
+
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
