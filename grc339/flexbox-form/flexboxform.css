@@ -34,7 +34,7 @@ section ul li select {
 }
 
 section.personal-info ul li label {
-	flex: 1 0 15em;
+	flex: 1 0 10em;
 }
 
 section.order ul, section.method ul {
