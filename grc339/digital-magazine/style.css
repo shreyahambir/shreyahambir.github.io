@@ -1,0 +1,68 @@
+/*CSS document*/
+
+body {
+    background-color: #f9f9f4;
+    font-family: interstate, sans-serif;
+
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    color: #323230;
+}
+
+figcaption{
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0.5em;
+    color: #323230;
+}
+
+h2, h3 {
+    font-weight: 700;
+    font-style: normal;
+    color: #389FC1;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    margin-top: 0.75em;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #389FC1;
+    padding: 1em;
+}
+
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+li a {
+    color: #f9f9f4; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer p {
+    margin-top: 2em;
+    font-weight: 200; 
+}
