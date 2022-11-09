@@ -1,15 +1,16 @@
 /*CSS document*/
 
 body {
-    background-color: #f9f9f4;
+    background-color: #FFFFFF;
     font-family: interstate, sans-serif;
-
+    margin: 1em;
 }
 
 p {
     font-weight: 400;
     font-style: normal;
     color: #323230;
+    margin: 0.5em 0 0.5em 0;  
 }
 
 figcaption{
@@ -19,29 +20,39 @@ figcaption{
     color: #323230;
 }
 
-h2, h3 {
-    font-weight: 700;
-    font-style: normal;
-    color: #389FC1;
+h1 {
+    max-width: 20em;
 }
 
+h2, h3 {
+    font-family: interstate-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #78290F;
+    margin: 0;  
+}
+
+
 div.container {
-    max-width: 40em;
+    max-width: 80em;
     margin: auto;
 }
 
+div.listitem {
+    margin: 1.5em 0 1.5em 0;
+}
+
 figure {
-    margin: 0;
+    margin: 1em 1em 1em 0; 
 }
 
 img {
     width: 100%;
-    margin-top: 0.75em;
 }
 
 ul {
     list-style-type: none;
-    background-color: #389FC1;
+    background-color: #15616D;
     padding: 1em;
 }
 
@@ -49,12 +60,14 @@ ul {
 nav ul li {
     display: inline;
     padding: 15px;
+    font-family: interstate-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 li a {
-    color: #f9f9f4; 
+    color: #FFFFFF; 
 }
 
 a {
@@ -65,4 +78,73 @@ a {
 footer p {
     margin-top: 2em;
     font-weight: 200; 
+}
+
+section.tertiary{
+    border-bottom: 1px solid #D3D3D3;
+    padding: 1.5em 1.5em 1.5em 0;
+}
+
+@media screen and (min-width: 60em){
+    div.container {
+        display: grid;
+        grid-template-columns: 3fr 1fr; 
+        grid-gap: 0 1em;
+    }
+    
+    header {
+        grid-column: 1/3; 
+    }
+    
+    main {
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 1em;
+    }
+
+    
+    article {
+        grid-column: 1/2;
+    }
+    
+    aside {
+       grid-column: 2/3; 
+    }
+    
+    section.main {
+        grid-column: 2/4;
+        grid-row: 1/3; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.main figure {
+        flex: 1 0 18em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    section.main figure div {
+        flex: 1 0 18em;
+        background-image: url(goldengate1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    section.main figure div img {
+        height: 100%;
+        opacity: 0; 
+    }
+    
+    section.main h3 {
+        flex: 0  0 auto; 
+        margin: 0; 
+    }
+    
+    footer {
+        grid-column: 1/4;
+    }
 }
