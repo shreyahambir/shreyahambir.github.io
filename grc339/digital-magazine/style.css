@@ -1,7 +1,7 @@
 /*CSS document*/
 
 body {
-    background-color: #FFFFFF;
+    background-color: #F5E7DE;
     font-family: interstate, sans-serif;
     margin: 1em;
 }
@@ -28,10 +28,9 @@ h2, h3 {
     font-family: interstate-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #78290F;
+    color: #4281A4;
     margin: 0;  
 }
-
 
 div.container {
     max-width: 80em;
@@ -52,10 +51,9 @@ img {
 
 ul {
     list-style-type: none;
-    background-color: #15616D;
+    background-color: #4281A4;
     padding: 1em;
 }
-
 
 nav ul li {
     display: inline;
@@ -67,13 +65,12 @@ nav ul li {
 }
 
 li a {
-    color: #FFFFFF; 
+    color: #F5E7DE; 
 }
 
 a {
     text-decoration: none;
 }
-
 
 footer p {
     margin-top: 2em;
@@ -81,7 +78,7 @@ footer p {
 }
 
 section.tertiary{
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 1px solid #54311A;
     padding: 1.5em 1.5em 1.5em 0;
 }
 
