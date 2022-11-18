@@ -35,7 +35,7 @@ h2, h3 {
 }
 
 div.container {
-    max-width: 80em;
+    max-width: 65em;
     margin: auto;
 }
 
@@ -61,7 +61,7 @@ nav ul {
 }
 
 form ul {
-    border: 1px solid #4281A4;
+    border: 1px solid #54311A;
     padding: 2em;
 }
 
@@ -96,8 +96,9 @@ footer p {
 }
 
 section.tertiary{
-    border-bottom: 1px solid #54311A;
-    padding: 1.5em 1.5em 1.5em 0;
+    margin-top: 1em;
+    border: 1px solid #54311A;
+    padding: 1.5em 1.5em 1.5em 1.5em;
 }
 
 main.gallery {
@@ -198,6 +199,7 @@ section.interests ul li {
     
     article {
         grid-column: 1/2;
+        padding-right: 1.5em;
     }
     
     aside {
