@@ -71,7 +71,7 @@ form label {
 
 nav ul li {
     display: inline;
-    padding: 8px;
+    padding: 0.5em;
     font-family: interstate-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -86,7 +86,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover, a h2:hover, a h3:hover{
     color: #54311a;
 }
 
